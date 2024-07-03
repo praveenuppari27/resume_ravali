@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+:root{
+    --bg-black-900:#302e4d;
+    --bg-black-100:#fdf9ff;
+    --bg-black-50:#e8dfec;
+    --text-white-900:#fdf9ff;
+    --text-black-700:#504e70;
+}
+
+body {
+    width: 210mm;
+    height: 297mm;
+    margin: 0 auto;
+    padding: 20mm; /* Adjust as necessary to fit content */
+    background-color: var(--bg-black-100);
+    color: var(--text-black-700);
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.heading {
+    height: 270px;
+    width: 100%;
+    background-color: black;
+    font-size: 30px;
+    color: var(--text-white-900);
+    text-align: center;
+    color: #999;
+    color: #f3f3f3;
+    margin-top: 15px; 
+}
+
+.h1 {
+    font-size: 80px;
+    font-weight: 50;
+    color: white;
+    font-family: garamond, serif;
+    padding-top: 20px;
+    padding-bottom: -25px;
+}
+
+.heading .linkss {
+    margin-top: -15px;
+    padding: -1px;
+}
+
+.heading .link {
+    text-decoration: none; 
+    font-family: garamond, serif;
+    color: #f3f3f3;
+}
+
+.matter {
+    margin: 50px;
+    width: 100%;
+}
+
+.download-button {
+    position: absolute; /* Add this line */
+    top: 20px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.download-button:hover {
+    background-color: #45a049;
+}
+
+.text-1 {
+    font-family: serif;
+    font-size: 25px;
+    font-weight: 550;
+}
+
+.career-objective {
+    text-align: center;
+    font-family: serif;
+    font-size: 28px;
+    font-weight: 550;
+    text-decoration: underline;
+    padding-top: 20px;
+}
+
+.section-title {
+    width: 95%;
+    font-family: serif;
+    font-size: 27px;
+    font-weight: 550;
+    background-color: lightgray;
+}
+
+.overall-matter {
+    font-family: serif;
+    font-size: 24px;
+    margin-top: 0.5px;
+    margin-left: 10px;
+    margin-right: 44px;
+}
+
+.text-3 {
+    font-family: serif;
+    font-size: 23px;
+    margin-right: 10px;
+    margin-top: 0.5px;
+}
+
+.list-type {
+    list-style: square;
+}
+
+.skills {
+    display: flex;
+    justify-content: baseline;
+}
+
+.link-1 {
+    text-decoration: none; 
+    font-family: garamond, serif;
+    color: black;
+}
+
+.listtype-1 {
+    font-family: serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.certifications li {
+    margin: -50px 0; /* Adjust the margin to reduce space between items */
+    padding: 2px 0; /* Adjust the padding to reduce space between items */
+    font-size: 22px; /* Adjust font size if needed */
+}
+
+.projects {
+    margin: 3px 0; /* Adjust the margin to reduce space between items */
+    padding: 2px 0; /* Adjust the padding to reduce space between items */
+    font-size: 25px; /* Adjust font size if needed */
+    font-weight: 500;
+}
+
+.dev {
+    list-style-type: disc;
+}
+
+.link {
+    text-decoration: none;
+}
